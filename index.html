@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Pomodoro Clock</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  
+  <div class="container">
+  	<div class="header">
+  		<span class="header-text">Pomodoro Clock</span>
+  		<span class="header-icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+  	</div>
+  
+  	<div class="settings-c">
+  		<div class="session-length">
+  			<span class="session-text">Session Time:</span>
+  			<span class="session-change">
+  				<i class="fa fa-arrow-left green-hover" aria-hidden="true" id="session-left"></i>
+  				<span class="settings-text" id="session-time">25</span>
+  				<i class="fa fa-arrow-right green-hover" aria-hidden="true" id="session-right"></i>
+  			</span>
+  		</div>
+
+  	</div>
+  	<div class="time-container">
+  		 <div class="circle">
+  		 	<span class="time">
+  		 		<span id="min">25</span>:<span id="sec">00</span>
+  		 	</span>
+  		 	<span class="time-text">Until your next break.</span>
+  		 </div>
+   	</div>
+   	<div class="start">
+   		<span class="start-text">Start!</span>
+   	</div>
+  </div>
+  
+  <script src="easytimer.js"></script>
+  <script src="main.js"></script>
+  
+</body>
+</html>
