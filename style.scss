@@ -216,14 +216,25 @@ body {
 		height: 100vh;
 	}
 	
-	.time-container {
-		padding-top: 80px;
+	.header-text {
+		padding-left: 25px;
 	}
+	
+	.header-icon {
+		padding-right: 25px;
+	}
+	
 	.settings-c {
 		height: 60px;
 		font-size: 16px;
 	}
+	
 	.session-text {
 		font-size: 14px;
+		padding-left: 25px;
+	}
+	
+	.session-change {
+		padding-right: 25px;
 	}
 }
