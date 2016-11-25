@@ -172,6 +172,13 @@ body {
     height: 100vh; }
 
   .time-container {
-    padding-top: 120px; } }
+    padding-top: 80px; }
+
+  .settings-c {
+    height: 60px;
+    font-size: 16px; }
+
+  .session-text {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
